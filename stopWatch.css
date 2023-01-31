@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+.container{
+    width: 40vw;
+    height: 40vh;
+    background: linear-gradient(90deg,rgba(0,0,0,.7),rgba(136, 133, 133, 0.7));
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+.container > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:3rem ;
+}
+.numbers{
+    align-self: center;
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+button{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    margin: 0.4rem;
+    background-color: rgb(173, 163, 149);
+}
